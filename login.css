@@ -1,0 +1,25 @@
+.boite {
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 600px;
+    background-color: rgb(30, 30, 30);
+}
+
+.boite img {
+	width: 100px;
+	height: 100px;
+	margin: auto;
+	display: block;
+}
+
+.boite .bar {
+    width: auto;
+    height: 2px;
+    background-color: white;
+}
+
+.boite .email {
+    border: none;
+    border-bottom: 1px solid white;
+}
