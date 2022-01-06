@@ -1,9 +1,13 @@
+body {
+    background-color: #0977fc;
+}
 .boite {
     margin-left: auto;
     margin-right: auto;
     width: 400px;
     height: 600px;
-    background-color: rgb(30, 30, 30);
+    background-color: rgb(52, 30, 68);
+    position: relative;
 }
 
 .boite img {
@@ -11,7 +15,7 @@
 	height: 100px;
 	margin: auto;
 	display: block;
-}
+} 
 
 .boite .bar {
     width: auto;
@@ -20,6 +24,17 @@
 }
 
 .boite .email {
+    font-size: 20px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:white;
+    caret-color: white;
+    width: 250px;
+    height: 60px;
     border: none;
     border-bottom: 1px solid white;
+    outline: none;
+    background-color: transparent;
 }
